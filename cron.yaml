@@ -1,0 +1,9 @@
+cron:
+#- description: crawler_M03A
+#  url: /addM03Ajob
+#  schedule: every day 02:00
+#  target: crawler
+
+- description: fbcrawler
+  url: /fbtest
+  schedule: every 10 mins
